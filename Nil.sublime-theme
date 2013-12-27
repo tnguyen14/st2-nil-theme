@@ -85,7 +85,7 @@
 	/** Inactive tab label **/
 	{
 		"class": "tab_label",
-		"fg": [180, 180, 180],
+		"fg": [240, 240, 240, 255],
 		"shadow_color": [0, 0, 0, 200],
 		"shadow_offset": [0, 0.5]
 	},
@@ -96,7 +96,7 @@
 		"parents": [{"class": "tab_control", "attributes": ["selected"]}],
 		"shadow_color": [0, 0, 0, 165],
 		"shadow_offset": [0, 0.5],
-		"fg": [240, 240, 240, 255]
+		"fg": [255, 200, 135]
 	},
 
 	/* - Dirty inactive tab label */
@@ -463,7 +463,7 @@
 	/** Sidebar heading **/
 	{
 		"class": "sidebar_heading",
-		"color": [155, 110, 248],
+		"color": [243, 134, 48],
 		"font.bold": true,
 		"shadow_color": [0, 0, 0],
 		"shadow_offset": [0, 0.5]
@@ -481,7 +481,7 @@
 	/** Sidebar entry label **/
 	{
 		"class": "sidebar_label",
-		"color": [180, 180, 180],
+		"color": [240, 240, 240],
 		"shadow_color": [0, 0, 0],
 		"shadow_offset": [0, 0.5]
 	},
@@ -494,7 +494,7 @@
 	{
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-		"color": [155, 110, 248]
+		"color": [243, 134, 48]
 	},
 	{
 		"class": "sidebar_label",
@@ -505,7 +505,7 @@
 	{	/*	Sidebar selected entry label */
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-		"color": [240, 240, 240],
+		"color": [255, 200, 135],
 		"shadow_color": [0, 0, 0],
 		"shadow_offset": [0, 0.5]
 	},
@@ -806,10 +806,10 @@
 	{
 		"class": "auto_complete_label",
 		"fg": [140, 140, 140],
-		"match_fg": [255, 255, 255],
+		"match_fg": [255, 200, 135],
 		"bg": [26, 26, 26],
-		"selected_fg": [255, 255, 255],
-		"selected_match_fg": [255, 255, 255],
+		"selected_fg": [140, 140, 140],
+		"selected_match_fg": [255, 200, 135],
 		"selected_bg": [86, 86, 86]
 	},
 	{
