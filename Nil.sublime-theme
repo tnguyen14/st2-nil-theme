@@ -234,6 +234,7 @@
 		"class": "puck_control",
 		"layer0.texture": "Theme - Nil/assets/dark/scrollbar/bar-vertical.png",
 		"layer0.opacity": 1.0,
+		"layer0.tint": [243, 134, 48],
 		"layer0.inner_margin": [3, 3],
 		"content_margin": [6, 6],
 		"blur": false
